@@ -1,15 +1,12 @@
-import './Entete.scss';
+import './sass/components/Entete.scss';
+import Navigation from './Navigation';
 
 export default function Entete(props){
     return (
         <header className="Entete">
-            <nav class="header__nav">
-                <ul class="nav__liste">
-                    <li class="liste__item"><a href="#">À propos de moi</a></li>
-                    <li class="liste__item"><a href="#">Portfolio</a></li>
-                    <li class="liste__item"><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+            <img src="images/autres/photo_profil.jpeg" alt="Photo de profil"/>
+            <h1>Jérôme Trottier</h1>
+            <Navigation/>
         </header>
     );
 }

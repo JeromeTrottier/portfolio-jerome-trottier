@@ -1,4 +1,4 @@
-import './App.scss';
+import './sass/components/App.scss';
 import Entete from './Entete';
 
 function App() {

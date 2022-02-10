@@ -1,0 +1,12 @@
+@import "../variables/typo";
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: $typo__font-family;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
