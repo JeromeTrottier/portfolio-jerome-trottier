@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+  .App {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "sidebar navigation sidebar"
+      "sidebar main sidebar"
+      "footer footer footer";
+  }
+  .Entete {
+    grid-area: header;
+  }
+  .Navigation {
+    grid-area: navigation;
+  }
+  .Main {
+    grid-area: main;
+  }
+  .Footer {
+    grid-area: footer;
+  }
+  .SidebarWave {
+    grid-area: sidebar;
+  }
+}

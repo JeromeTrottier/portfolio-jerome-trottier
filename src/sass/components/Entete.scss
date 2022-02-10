@@ -1,6 +1,11 @@
 @import "../variables/colors";
 
 .Entete {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
   img {
     width: 200px;
     border-radius: 100%;

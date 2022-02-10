@@ -1,4 +1,12 @@
 @import "../variables/colors";
 .Navigation {
-  border-bottom: 2px solid $color__background-color-link;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(
+    to top,
+    $color__background-color-primary,
+    transparent 50%
+  );
+  //   border-top: 2px solid linear-gradient(to left, black, red);
 }

@@ -1,0 +1,23 @@
+.App {
+  display: grid;
+  grid-template-areas:
+    "navigation"
+    "header"
+    "main"
+    "footer";
+  .Entete {
+    grid-area: header;
+  }
+  .Navigation {
+    grid-area: navigation;
+  }
+  .Main {
+    grid-area: main;
+  }
+  .Footer {
+    grid-area: footer;
+  }
+  .SidebarWave {
+    grid-area: sidebar;
+  }
+}

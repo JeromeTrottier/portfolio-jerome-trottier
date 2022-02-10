@@ -6,7 +6,6 @@ export default function Entete(props){
         <header className="Entete">
             <img src="images/autres/photo_profil.jpeg" alt="Photo de profil"/>
             <h1>Jérôme Trottier</h1>
-            <Navigation/>
         </header>
     );
 }
