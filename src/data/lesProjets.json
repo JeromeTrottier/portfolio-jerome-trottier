@@ -1,0 +1,42 @@
+[
+    {
+        "id": "projet001",
+        "nom": "Générateur de gammes et accords",
+        "desc": "Une application web qui permet de générer aléatoirement des gammes et accords de piano et de les afficher.",
+        "github_link": "https://github.com/JeromeTrottier/Application-Musicale",
+        "project_link": "https://jerometrottier.github.io/Application-Musicale/",
+        "date" : "Avril 2021",
+        "vieillesse": 202104
+    },
+    {
+        "id": "projet002",
+        "nom": "Le Chevalier Perdu",
+        "desc": "Un jeu vidéo 2D platformer fait à l'aide de JavaScript et de Canvas HTML",
+        "github_link": "https://github.com/JeromeTrottier/Jeu_JavaScript_LeChevalierPerdu",
+        "project_link": "https://jerometrottier.github.io/Jeu_JavaScript_LeChevalierPerdu/",
+        "date" : "Décembre 2020",
+        "vieillesse": 202012
+         
+    },
+    {
+        "id": "projet003",
+        "nom": "Grille redmisensionnable",
+        "desc": "Grille qui peut être redimensionné dynamiquement en manipulant en des éléments DOM.",
+        "github_link": "https://github.com/JeromeTrottier/GrilleDynamique",
+        "project_link": "https://jerometrottier.github.io/GrilleDynamique/",
+        "date" : "Novembre 2021",
+        "vieillesse": 202111
+         
+    },
+    {
+        "id": "projet004",
+        "nom": "Projet refonte : Vélo Intemporel",
+        "desc": "Une complète de refonte d'un site web intégré en HTML5, CSS, JavaScript et PHP",
+        "github_link": "https://github.com/JeromeTrottier/TransormationSiteWeb_Design",
+        "project_link": "Pas disponible :(",
+        "date" : "Décembre 2021",
+        "vieillesse": 202112
+         
+    }
+
+]

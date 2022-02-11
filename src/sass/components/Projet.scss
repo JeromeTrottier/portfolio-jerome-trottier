@@ -1,0 +1,33 @@
+@import "../variables/colors";
+.Projet {
+  background-color: rgba(240, 240, 240, 0.308);
+  box-shadow: 0px 0px 10px 2px rgba(121, 121, 121, 0.336);
+  width: 400px;
+  background: linear-gradient(
+    -45deg,
+    $color__background-color-primary 10%,
+    transparent 0%
+  );
+  border: $color__background-color-primary solid 1px;
+  img {
+    width: 398px;
+  }
+  .contenu {
+    margin: 0.8rem;
+    h2 {
+      text-align: center;
+      height: 3rem;
+    }
+    .desc {
+      font-style: italic;
+      height: 3rem;
+    }
+    .liens {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .date {
+      font-weight: bold;
+    }
+  }
+}

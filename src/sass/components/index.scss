@@ -10,16 +10,3 @@ html {
 *::before {
   box-sizing: inherit;
 }
-body {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "navigation"
-    "main"
-    "footer";
-  .App {
-    .Entete {
-      grid-area: header;
-    }
-  }
-}
