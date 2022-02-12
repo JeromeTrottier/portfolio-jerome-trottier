@@ -20,7 +20,7 @@
     },
     {
         "id": "projet003",
-        "nom": "Grille redmisensionnable",
+        "nom": "Grille redimensionnable",
         "desc": "Grille qui peut être redimensionné dynamiquement en manipulant en des éléments DOM.",
         "github_link": "https://github.com/JeromeTrottier/GrilleDynamique",
         "project_link": "https://jerometrottier.github.io/GrilleDynamique/",

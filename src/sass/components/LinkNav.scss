@@ -2,16 +2,16 @@
 
 .LinkNav {
   list-style-type: none;
+  flex: 1 1 0px;
+  max-width: 15rem;
   a {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 60px;
-    width: 170px;
     margin: 20px;
     padding: 10px 50px;
-    border-radius: 15px;
+    border-radius: 3px;
     border: 1px solid $color__background-color-link;
     background: linear-gradient(
       to right,
@@ -20,14 +20,13 @@
     );
     background-size: 200% 100%;
     background-position: 100% 0%;
-    transition: background 0.5s;
+    transition: background 0.3s;
     color: $color__font-link;
     text-decoration: none;
-    transition: 0.5s;
   }
   a:hover {
-    background-position: 0% 0%;
-    border: 2px solid $color__background-color-primary;
-    color: $color__background-color-primary;
+    background-position: 90% 0%;
+    // border: 1px solid $color__background-color-primary;
+    // color: $color__background-color-primary;
   }
 }

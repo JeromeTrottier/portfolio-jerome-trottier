@@ -2,9 +2,10 @@ import './sass/components/ListeProjets.scss';
 import Projet from './Projet';
 import lesProjets from './data/lesProjets.json';
 
+
 export default function ListeProjets(props){
     return (
-        <section className="ListeProjets">
+        <section id="portfolio" className="ListeProjets">
             {lesProjets.map(unProjet => <Projet pid={unProjet.id} 
                                                 nom={unProjet.nom} 
                                                 desc={unProjet.desc}            

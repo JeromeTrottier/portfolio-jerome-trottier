@@ -1,8 +1,8 @@
 import './sass/components/SidebarWave.scss';
 
-export default function SidebareWave(props){
+export default function SidebarWave(props){
     return (
-        <aside className="SidebareWave">
+        <aside className="SidebarWave">
            
         </aside>
     );

@@ -1,4 +1,7 @@
+import LinkProjet from './LinkProjet';
 import './sass/components/Projet.scss';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import PreviewIcon from '@mui/icons-material/Preview';
 
 export default function Projet(props){
     return (
@@ -8,8 +11,8 @@ export default function Projet(props){
                 <h2 className="nom">{props.nom}</h2>
                 <p className="desc">{props.desc}</p>
                 <div className="liens">
-                    <a href={props.github_link}  target="_blank"> -&gt; GitHub</a>
-                    <a href={props.project_link} target="_blank"> -&gt; Projet</a>
+                    <LinkProjet link={props.github_link} contenu="GitHub" icone={<GitHubIcon/>}/>
+                    <LinkProjet link={props.project_link} contenu="Projet" icone={<PreviewIcon/>}/>
                 </div>
                 <p className="date">{props.date}</p>
             </div>
