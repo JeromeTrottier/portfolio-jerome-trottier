@@ -11,7 +11,10 @@ export default function ListeProjets(props){
                                                 desc={unProjet.desc}            
                                                 github_link={unProjet.github_link} 
                                                 project_link={unProjet.project_link} 
-                                                date={unProjet.date}/>)}
+                                                date={unProjet.date}
+                                                technologies={unProjet.technologies}
+                                        />)
+            }
         </section>
     );
 }

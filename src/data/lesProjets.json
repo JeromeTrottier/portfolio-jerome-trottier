@@ -6,7 +6,20 @@
         "github_link": "https://github.com/JeromeTrottier/Application-Musicale",
         "project_link": "https://jerometrottier.github.io/Application-Musicale/",
         "date" : "Avril 2021",
-        "vieillesse": 202104
+        "vieillesse": 202104,
+        "technologies" : [{
+            "techNom": "JavaScript",
+            "techLink": "https://www.javascript.com"
+        },
+        {
+            "techNom": "HTML5",
+            "techLink": "https://html.com/html5/"
+        },
+        {
+            "techNom": "CSS",
+            "techLink": "https://www.w3.org/Style/CSS/Overview.fr.html"
+        }
+    ]  
     },
     {
         "id": "projet002",
@@ -15,7 +28,20 @@
         "github_link": "https://github.com/JeromeTrottier/Jeu_JavaScript_LeChevalierPerdu",
         "project_link": "https://jerometrottier.github.io/Jeu_JavaScript_LeChevalierPerdu/",
         "date" : "Décembre 2020",
-        "vieillesse": 202012
+        "vieillesse": 202012,
+        "technologies" : [{
+            "techNom": "JavaScript",
+            "techLink": "https://www.javascript.com"
+        },
+        {
+            "techNom": "HTML5",
+            "techLink": "https://html.com/html5/"
+        },
+        {
+            "techNom": "CSS",
+            "techLink": "https://www.w3.org/Style/CSS/Overview.fr.html"
+        }
+    ]  
          
     },
     {
@@ -25,7 +51,20 @@
         "github_link": "https://github.com/JeromeTrottier/GrilleDynamique",
         "project_link": "https://jerometrottier.github.io/GrilleDynamique/",
         "date" : "Novembre 2021",
-        "vieillesse": 202111
+        "vieillesse": 202111,
+        "technologies" : [{
+                "techNom": "JavaScript",
+                "techLink": "https://www.javascript.com"
+            },
+            {
+                "techNom": "HTML5",
+                "techLink": "https://html.com/html5/"
+            },
+            {
+                "techNom": "CSS",
+                "techLink": "https://www.w3.org/Style/CSS/Overview.fr.html"
+            }
+        ]
          
     },
     {
@@ -35,7 +74,72 @@
         "github_link": "https://github.com/JeromeTrottier/TransormationSiteWeb_Design",
         "project_link": "Pas disponible :(",
         "date" : "Décembre 2021",
-        "vieillesse": 202112
+        "vieillesse": 202112,
+        "technologies" : [{
+                "techNom": "JavaScript",
+                "techLink": "https://www.javascript.com"
+            },
+            {
+                "techNom": "HTML5",
+                "techLink": "https://html.com/html5/"
+            },
+            {
+                "techNom": "CSS",
+                "techLink": "https://www.w3.org/Style/CSS/Overview.fr.html"
+            },
+            {
+                "techNom": "Adobe XD",
+                "techLink": "https://www.adobe.com/ca_fr/products/xd.html"
+            }
+        ]  
+    },
+    {
+        "id": "projet005",
+        "nom": "Tetrominos 3D",
+        "desc": "Un jeu Tetris, mais en 3D!",
+        "github_link": "https://github.com/JeromeTrottier/Tetrominos3D",
+        "project_link": "https://fonomik.itch.io/tetrominos-3d",
+        "date" : "Décembre 2021",
+        "vieillesse": 202112,
+        "technologies" : [{
+                "techNom": "Unity3D",
+                "techLink": "https://unity.com"
+            },
+            {
+                "techNom": "C#",
+                "techLink": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+            },
+            {
+                "techNom": "Autodesk Maya",
+                "techLink": "https://www.autodesk.ca/fr/products/maya/overview?term=1-YEAR&tab=subscription"
+            }
+        ]  
+    },
+    {
+        "id": "projet006",
+        "nom": "Gravity Ball",
+        "desc": "Un petit jeu platformer où on joue une balle contrôlé que par la gravité!",
+        "github_link": "https://github.com/JeromeTrottier/GravityBall",
+        "project_link": "https://fonomik.itch.io/gravity-ball",
+        "date" : "Mai 2021",
+        "vieillesse": 202105,
+        "technologies" : [{
+                "techNom": "Unity2D",
+                "techLink": "https://unity.com"
+            },
+            {
+                "techNom": "C#",
+                "techLink": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+            },
+            {
+                "techNom": "Adobe Photoshop",
+                "techLink": "https://www.adobe.com/ca_fr/products/photoshop.html"
+            },
+            {
+                "techNom": "Adobe Illustrator",
+                "techLink": "https://www.adobe.com/ca_fr/products/illustrator.html"
+            }
+        ]    
          
     }
 

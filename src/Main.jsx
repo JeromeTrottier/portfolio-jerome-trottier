@@ -11,10 +11,11 @@ export default function Main(props){
     return (
         <main className="Main">
             <section className="apropos">
+                <h2>À propos</h2>
             </section>
             <ListeProjets/>
             <section className="contact">
-                
+                <h2>Contact</h2>
             </section>
         </main>
     );
