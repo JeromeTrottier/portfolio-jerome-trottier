@@ -8,8 +8,8 @@ export default function Entete(props){
     return (
         <header className="Entete">
             <div className="contactLinks">
-                <LinkProjet link="https://github.com/JeromeTrottier" icone={<GitHubIcon/>}/>
-                <LinkProjet link="https://github.com/JeromeTrottier" icone={<LinkedInIcon/>}/>
+                {/* <LinkProjet link="https://github.com/JeromeTrottier" icone={<GitHubIcon/>}/>
+                <LinkProjet link="https://github.com/JeromeTrottier" icone={<LinkedInIcon/>}/> */}
             </div>
             <Navigation/>
             <div></div>

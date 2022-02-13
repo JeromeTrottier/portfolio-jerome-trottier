@@ -6,7 +6,7 @@ export default function ListeLinksNav(props){
         <ul className="ListeLinksNav">
             <LinkNav lien="#apropos" contenu="À propos"/>
             <LinkNav lien="#portfolio" contenu="Portfolio"/>
-            <LinkNav lien="#" contenu="Contact"/>
+            <LinkNav lien="#contact" contenu="Contact"/>
         </ul>
     );
 }
