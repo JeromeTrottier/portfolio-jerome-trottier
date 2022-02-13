@@ -118,7 +118,7 @@
     {
         "id": "projet006",
         "nom": "Gravity Ball",
-        "desc": "Un petit jeu platformer où on joue une balle contrôlé que par la gravité!",
+        "desc": "Un petit jeu platformer où on joue une balle contrôlée que par la gravité!",
         "github_link": "https://github.com/JeromeTrottier/GravityBall",
         "project_link": "https://fonomik.itch.io/gravity-ball",
         "date" : "Mai 2021",

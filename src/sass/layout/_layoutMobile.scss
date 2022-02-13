@@ -2,7 +2,6 @@
   display: grid;
   grid-template-areas:
     "header"
-    "navigation"
     "presentation"
     "main"
     "footer";
@@ -11,9 +10,6 @@
   }
   .Presentation {
     grid-area: presentation;
-  }
-  .Navigation {
-    grid-area: navigation;
   }
   .Main {
     grid-area: main;

@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <Entete/>
       <Presentation/>
-      <Navigation/>
       <Main/>
       <Footer/>
       <SidebarWave/>

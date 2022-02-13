@@ -1,5 +1,12 @@
+@import "../variables/colors";
 .Main {
   display: flex;
   flex-flow: column;
   gap: 2rem;
+  > h2 {
+    padding: 2rem;
+    background-color: $color__background-color-soustitre;
+    text-align: center;
+    color: white;
+  }
 }

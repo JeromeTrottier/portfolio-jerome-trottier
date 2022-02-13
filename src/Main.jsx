@@ -5,18 +5,16 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import Contact from './Contact';
 
 
 export default function Main(props){
     return (
         <main className="Main">
-            <section className="apropos">
-                <h2>À propos</h2>
-            </section>
+            <h2>Mes Projets</h2>
             <ListeProjets/>
-            <section className="contact">
-                <h2>Contact</h2>
-            </section>
+            <h2>Me contacter</h2>
+            <Contact/>
         </main>
     );
 }

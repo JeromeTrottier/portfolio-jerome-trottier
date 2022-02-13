@@ -1,0 +1,19 @@
+@import "../variables/colors";
+
+.Contact {
+  background-color: $color__background-color-primary-fade;
+  border-top: $color__background-color-primary-dark solid 2px;
+  ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    li {
+      margin: 0.5rem 0 0.5rem 43%;
+      display: flex;
+      align-items: center;
+    }
+  }
+  a {
+    color: black;
+  }
+}
