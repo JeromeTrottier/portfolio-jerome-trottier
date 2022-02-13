@@ -1,19 +1,22 @@
 import './sass/components/App.scss';
 import './sass/layout/_layouts.scss';
 import Entete from './Entete';
-import SidebareWave from './SidebarWave';
+import SidebarWave from './SidebarWave';
 import Navigation from './Navigation';
 import Main from './Main';
 import Footer from './Footer';
+import Presentation from './Presentation';
 
 function App() {
   return (
     <div className="App">
       <Entete/>
+      <Presentation/>
       <Navigation/>
       <Main/>
       <Footer/>
-      <SidebareWave/>
+      <SidebarWave/>
+      <SidebarWave/>
     </div>
   );
 }

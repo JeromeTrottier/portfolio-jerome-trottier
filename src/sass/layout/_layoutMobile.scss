@@ -1,12 +1,16 @@
 .App {
   display: grid;
   grid-template-areas:
-    "navigation"
     "header"
+    "navigation"
+    "presentation"
     "main"
     "footer";
   .Entete {
     grid-area: header;
+  }
+  .Presentation {
+    grid-area: presentation;
   }
   .Navigation {
     grid-area: navigation;
@@ -19,5 +23,8 @@
   }
   .SidebarWave {
     grid-area: sidebar;
+  }
+  .SidebarWave:last-of-type {
+    grid-area: sidebar2;
   }
 }

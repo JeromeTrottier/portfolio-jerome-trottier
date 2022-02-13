@@ -3,8 +3,9 @@
     grid-template-columns: auto 80% auto;
     grid-template-areas:
       "header header header"
-      "navigation navigation navigation"
-      "sidebar main ."
+      "sidebar presentation sidebar2"
+      "sidebar navigation sidebar2"
+      "sidebar main sidebar2"
       "footer footer footer";
   }
 }

@@ -1,0 +1,15 @@
+@import "../variables/colors";
+
+.Presentation {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 200px;
+    border-radius: 100%;
+    border: 2px solid $color__background-color-primary;
+    box-shadow: 2px 2px 10px black;
+  }
+}
