@@ -12,6 +12,7 @@ export default function Projet(props){
             <div className="contenu">
                 <h2 className="nom">{props.nom}</h2>
                 <p className="desc">{props.desc}</p>
+                <h4 className="techTitre">Technologies utilisées</h4>
                 <ListeTechnologies technologies={props.technologies}/>
                 <div className="liens">
                     <LinkProjet link={props.github_link} contenu="GitHub" icone={<GitHubIcon/>}/>
