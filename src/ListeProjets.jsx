@@ -5,7 +5,7 @@ import lesProjets from './data/lesProjets.json';
 
 export default function ListeProjets(props){
     return (
-        <section id="portfolio" className="ListeProjets">
+        <section className="ListeProjets">
             {lesProjets.map(unProjet => <Projet pid={unProjet.id} 
                                                 nom={unProjet.nom} 
                                                 desc={unProjet.desc}            

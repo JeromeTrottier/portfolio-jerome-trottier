@@ -11,9 +11,9 @@ import Contact from './Contact';
 export default function Main(props){
     return (
         <main className="Main">
-            <h2>Mes Projets</h2>
+            <h2 id="portfolio">Mes Projets</h2>
             <ListeProjets/>
-            <h2>Me contacter</h2>
+            <h2 id="contact">Me contacter</h2>
             <Contact/>
         </main>
     );

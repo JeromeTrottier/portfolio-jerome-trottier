@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Contact(props){
     return (
-        <section id="contact" className="Contact">
+        <section className="Contact">
             <ul>
                     <li>
                         <HouseIcon/>
