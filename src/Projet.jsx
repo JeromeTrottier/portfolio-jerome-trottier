@@ -8,7 +8,7 @@ import ListeTechnologies from './ListeTechnologies';
 export default function Projet(props){
     return (
         <article className="Projet">
-            <img src={"images/projets/" + props.pid + ".png"} alt=""/>
+            <a href={props.project_link} target="_blank"><img src={"images/projets/" + props.pid + ".png"} alt=""/></a>
             <div className="contenu">
                 <h2 className="nom">{props.nom}</h2>
                 <p className="desc">{props.desc}</p>
