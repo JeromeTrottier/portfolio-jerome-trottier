@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portoflio-jerome-trottier/static/css/main.4e01bb91.css",
-    "main.js": "/portoflio-jerome-trottier/static/js/main.8569ccab.js",
-    "index.html": "/portoflio-jerome-trottier/index.html",
-    "main.4e01bb91.css.map": "/portoflio-jerome-trottier/static/css/main.4e01bb91.css.map",
-    "main.8569ccab.js.map": "/portoflio-jerome-trottier/static/js/main.8569ccab.js.map"
+    "main.css": "/portfolio-jerome-trottier/static/css/main.4e01bb91.css",
+    "main.js": "/portfolio-jerome-trottier/static/js/main.8569ccab.js",
+    "index.html": "/portfolio-jerome-trottier/index.html",
+    "main.4e01bb91.css.map": "/portfolio-jerome-trottier/static/css/main.4e01bb91.css.map",
+    "main.8569ccab.js.map": "/portfolio-jerome-trottier/static/js/main.8569ccab.js.map"
   },
   "entrypoints": [
     "static/css/main.4e01bb91.css",
