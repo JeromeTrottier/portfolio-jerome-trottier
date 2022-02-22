@@ -72,7 +72,7 @@
         "nom": "Projet refonte : Vélo Intemporel",
         "desc": "Une complète de refonte d'un site web intégré en HTML5, CSS, JavaScript et PHP",
         "github_link": "https://github.com/JeromeTrottier/TransormationSiteWeb_Design",
-        "project_link": "Pas disponible :(",
+        "project_link": "https://linktr.ee/JeromeTrottier",
         "date" : "Décembre 2021",
         "vieillesse": 202112,
         "technologies" : [{
@@ -86,6 +86,10 @@
             {
                 "techNom": "CSS",
                 "techLink": "https://www.w3.org/Style/CSS/Overview.fr.html"
+            },
+            {
+                "techNom": "PHP",
+                "techLink": "https://www.php.net/"
             },
             {
                 "techNom": "Adobe XD",
@@ -120,7 +124,7 @@
         "nom": "Gravity Ball",
         "desc": "Un petit jeu platformer où on joue une balle contrôlée que par la gravité!",
         "github_link": "https://github.com/JeromeTrottier/GravityBall",
-        "project_link": "https://fonomik.itch.io/gravity-ball",
+        "project_link": "https://jeu.tim.cmaisonneuve.qc.ca/galerie_unity/progAnim/h2021/JeromeTrottier/TrottierJerome/index.html",
         "date" : "Mai 2021",
         "vieillesse": 202105,
         "technologies" : [{
