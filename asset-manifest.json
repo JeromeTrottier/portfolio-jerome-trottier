@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-jerome-trottier/static/css/main.8f9f4145.css",
-    "main.js": "/portfolio-jerome-trottier/static/js/main.3b70137f.js",
+    "main.js": "/portfolio-jerome-trottier/static/js/main.145a1735.js",
     "index.html": "/portfolio-jerome-trottier/index.html",
     "main.8f9f4145.css.map": "/portfolio-jerome-trottier/static/css/main.8f9f4145.css.map",
-    "main.3b70137f.js.map": "/portfolio-jerome-trottier/static/js/main.3b70137f.js.map"
+    "main.145a1735.js.map": "/portfolio-jerome-trottier/static/js/main.145a1735.js.map"
   },
   "entrypoints": [
     "static/css/main.8f9f4145.css",
-    "static/js/main.3b70137f.js"
+    "static/js/main.145a1735.js"
   ]
 }
