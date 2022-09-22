@@ -1,9 +1,19 @@
 import './sass/components/LinkProjet.scss';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 export default function LinkProjet(props){
+
+    const handleClick = (e) => {
+        e.preventDefault();
+        if (props.link === "") {
+            alert("Pas de lien attribué à ce projet!");
+        }
+        else {
+            window.open(props.link, '_blank');
+        }
+    }
+
     return (
-        <a href={props.link} target="_blank" className="LinkProjet">
+        <a onClick={handleClick} href="#" className="LinkProjet">
             {props.icone} 
             <p className="linkText">
                 {props.contenu}

@@ -19,7 +19,10 @@
             "techNom": "CSS",
             "techLink": "https://www.w3.org/Style/CSS/Overview.fr.html"
         }
-    ]  
+        ],
+        "type" : [
+            "Web"
+        ]  
     },
     {
         "id": "projet002",
@@ -41,7 +44,11 @@
             "techNom": "CSS",
             "techLink": "https://www.w3.org/Style/CSS/Overview.fr.html"
         }
-    ]  
+        ],
+        "type" : [
+            "Web",
+            "Jeu"
+        ]  
          
     },
     {
@@ -64,7 +71,10 @@
                 "techNom": "CSS",
                 "techLink": "https://www.w3.org/Style/CSS/Overview.fr.html"
             }
-        ]
+        ],
+        "type" : [
+            "Web"
+        ]  
          
     },
     {
@@ -95,6 +105,10 @@
                 "techNom": "Adobe XD",
                 "techLink": "https://www.adobe.com/ca_fr/products/xd.html"
             }
+        ],
+        "type" : [
+            "Web",
+            "Design"
         ]  
     },
     {
@@ -117,6 +131,10 @@
                 "techNom": "Autodesk Maya",
                 "techLink": "https://www.autodesk.ca/fr/products/maya/overview?term=1-YEAR&tab=subscription"
             }
+        ],
+        "type" : [
+            "3D",
+            "Jeu"
         ]  
     },
     {
@@ -143,8 +161,28 @@
                 "techNom": "Adobe Illustrator",
                 "techLink": "https://www.adobe.com/ca_fr/products/illustrator.html"
             }
+        ],
+        "type" : [
+            "Jeu"
         ]    
          
+    },
+    {
+        "id": "projet007",
+        "nom": "La flûte de Neia",
+        "desc": "Un objet modélisé en 3D utilisant aussi de la simulation de tissu",
+        "github_link": "",
+        "project_link": "https://www.youtube.com/watch?v=PZScFLlg-fQ",
+        "date" : "Octobre 2021",
+        "vieillesse": 202110,
+        "technologies" : [{
+            "techNom": "Autodesk Maya",
+            "techLink": "https://www.autodesk.ca/fr/products/maya/overview?term=1-YEAR&tab=subscription"
+            }
+        ],
+        "type" : [
+            "3D"
+        ]   
+         
     }
-
 ]

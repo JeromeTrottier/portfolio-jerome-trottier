@@ -1,0 +1,87 @@
+@import "../variables/colors";
+@import "../variables/typo";
+
+.FiltreProjets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    .orderByAge {
+        background: linear-gradient(
+            to right,
+            $color__background-color-primary 50%,
+            transparent 50%
+        );
+        background-size: 200% 100%;
+        background-position: 100% 0%;
+        transition: 0.3s;
+        border: $color__background-color-primary 2px solid;
+        color: $color__background-color-primary;
+        border-radius: 3px;
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
+        font-family: $typo__font-family-secondary;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        svg {
+            margin-left: 5px;
+            color: $color__background-color-soustitre;
+            &.desc {
+                animation: toDown forwards 0.5s;
+                @keyframes toDown {
+                    from {
+                        rotate: 90deg;
+                    }
+                    to {
+                        rotate: 270deg;
+                    }
+                }
+            }
+            &.asc {
+                animation: toUp forwards 0.5s;
+                @keyframes toUp {
+                    from {
+                        rotate: 270deg;
+                    }
+                    to {
+                        rotate: 90deg;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            background-position: 0% 0%;
+            color: white;
+        }
+    }
+    .multiSelect {
+        .searchWrapper {
+            padding: 0.6rem 2rem;
+            border: $color__background-color-primary 2px solid;
+            
+            border-radius: 3px;
+            .searchBox {
+                color: $color__background-color-primary;
+                font-size: 1rem;
+                font-family: $typo__font-family-secondary;
+            }
+
+            .chip {
+                background: $color__background-color-primary;
+            }
+        }
+        .optionListContainer {
+            .optionContainer{
+                .option {
+                    &:hover {
+                        background: $color__background-color-primary;
+                    }
+                }
+            }
+        }
+    }
+}

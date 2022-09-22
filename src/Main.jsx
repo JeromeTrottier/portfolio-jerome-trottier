@@ -1,18 +1,20 @@
 import ListeProjets from './ListeProjets';
 import './sass/components/Main.scss';
-import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
 import Contact from './Contact';
+import FiltreProjets from './FiltreProjets';
+import { useState } from 'react';
 
 
 export default function Main(props){
+
+    const [orderByAge, setOrderByAge] = useState('asc');
+    const [orderByType, setOrderByType] = useState([]);
+
     return (
         <main className="Main">
             <h2 id="portfolio">Mes Projets</h2>
-            <ListeProjets/>
+            <FiltreProjets orderByAge={orderByAge} setOrderByAge={setOrderByAge} orderByType={orderByType} setOrderByType={setOrderByType}/>
+            <ListeProjets orderByAge={orderByAge} orderByType={orderByType}/>
             <h2 id="contact">Me contacter</h2>
             <Contact/>
         </main>
