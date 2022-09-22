@@ -9,14 +9,14 @@ export default function ListeProjets(props){
         switch (props.orderByAge){
             case 'desc':
                 return a - b;
-            case 'asc':
+            default:
                 return b - a;
         }
     }
 
     const filterByType = (project) => {
         
-        if (props.orderByType.length == 0)
+        if (props.orderByType.length === 0)
         {
             return project;
         }

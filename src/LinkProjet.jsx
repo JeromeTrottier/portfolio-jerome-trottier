@@ -13,11 +13,11 @@ export default function LinkProjet(props){
     }
 
     return (
-        <a onClick={handleClick} href="#" className="LinkProjet">
+        <button onClick={handleClick} className="LinkProjet">
             {props.icone} 
             <p className="linkText">
                 {props.contenu}
             </p>
-        </a>
+        </button>
     );
 }

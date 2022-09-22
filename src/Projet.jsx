@@ -2,13 +2,12 @@ import LinkProjet from './LinkProjet';
 import './sass/components/Projet.scss';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import PreviewIcon from '@mui/icons-material/Preview';
-import TechnologieUtilisee from './TechnologieUtilisee';
 import ListeTechnologies from './ListeTechnologies';
 
 export default function Projet(props){
     return (
         <article className="Projet">
-            <a href={props.project_link} target="_blank"><img src={"images/projets/" + props.pid + ".png"} alt=""/></a>
+            <a href={props.project_link} target="_blank" rel='noopener noreferrer'><img src={"images/projets/" + props.pid + ".png"} alt=""/></a>
             <div className="contenu">
                 <h2 className="nom">{props.nom}</h2>
                 <p className="desc">{props.desc}</p>

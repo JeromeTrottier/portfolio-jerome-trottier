@@ -9,7 +9,7 @@ export default function FiltreProjets(props){
             case 'desc':
                 props.setOrderByAge('asc');
                 break;
-            case 'asc':
+            default:
                 props.setOrderByAge('desc');
                 break;
         }

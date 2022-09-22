@@ -2,7 +2,6 @@ import './sass/components/App.scss';
 import './sass/layout/_layouts.scss';
 import Entete from './Entete';
 import SidebarWave from './SidebarWave';
-import Navigation from './Navigation';
 import Main from './Main';
 import Footer from './Footer';
 import Presentation from './Presentation';

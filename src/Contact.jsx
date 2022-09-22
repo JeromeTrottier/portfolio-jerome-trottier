@@ -23,11 +23,11 @@ export default function Contact(props){
                     </li>
                     <li>
                         <GitHubIcon/>
-                        <a target="_blank" href="https://github.com/JeromeTrottier">JeromeTrottier</a>
+                        <a target="_blank"rel="noopener noreferrer" href="https://github.com/JeromeTrottier">JeromeTrottier</a>
                     </li>
                     <li>
                         <LinkedInIcon/>
-                        <a target="_blank" href="https://www.linkedin.com/in/jerometrottier/">JeromeTrottier</a>
+                        <a target="_blank "rel="noopene noreferrer" href="https://www.linkedin.com/in/jerometrottier/">JeromeTrottier</a>
                     </li>
                 </ul>
         </section>
