@@ -35,7 +35,7 @@ export default function FiltreProjets(props){
                          displayValue={"name"} 
                          showCheckbox={true} 
                          className={'multiSelect'} 
-                         placeholder={'Filter par type :'} 
+                         placeholder={'Filtrer par type :'} 
                          avoidHighlightFirstOption={true}
                          onSelect={onSelect}
                          onRemove={onRemove}
