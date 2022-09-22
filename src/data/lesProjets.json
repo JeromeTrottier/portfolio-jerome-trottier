@@ -184,5 +184,27 @@
             "3D"
         ]   
          
+    },
+    {
+        "id": "projet008",
+        "nom": "Gestionnaire de tâches",
+        "desc": "Une petite application web qui permet d'ajouter, classer et de supprimer des tâches de plusieurs utilisateurs.",
+        "github_link": "https://github.com/JeromeTrottier/tp2-memo",
+        "project_link": "https://memo-app-react.firebaseapp.com",
+        "date" : "Mai 2022",
+        "vieillesse": 202205,
+        "technologies" : [{
+                "techNom": "Firebase",
+                "techLink": "https://firebase.google.com"
+            },
+            {
+                "techNom": "React",
+                "techLink": "https://fr.reactjs.org"
+            }
+        ],
+        "type" : [
+            "Web"
+        ]   
+         
     }
 ]
