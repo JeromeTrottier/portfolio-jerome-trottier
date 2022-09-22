@@ -30,17 +30,6 @@
             margin-left: 5px;
             color: $color__background-color-soustitre;
             &.desc {
-                animation: toDown forwards 0.5s;
-                @keyframes toDown {
-                    from {
-                        rotate: 90deg;
-                    }
-                    to {
-                        rotate: 270deg;
-                    }
-                }
-            }
-            &.asc {
                 animation: toUp forwards 0.5s;
                 @keyframes toUp {
                     from {
@@ -50,6 +39,17 @@
                         rotate: 90deg;
                     }
                 }
+            }
+            &.asc {
+                animation: toDown forwards 0.5s;
+                @keyframes toDown {
+                    from {
+                        rotate: 90deg;
+                    }
+                    to {
+                        rotate: 270deg;
+                    }
+                } 
             }
         }
 
