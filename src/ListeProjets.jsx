@@ -1,7 +1,7 @@
 import './sass/components/ListeProjets.scss';
 import Projet from './Projet';
 import lesProjets from './data/lesProjets.json';
-import {AnimatePresence} from 'framer-motion';
+import {motion, AnimatePresence} from 'framer-motion';
 import { useEffect, useState } from 'react';
 
 
@@ -40,7 +40,7 @@ export default function ListeProjets(props){
     }
 
     return (
-        <section className="ListeProjets">
+        <motion.section className="ListeProjets">
                 <AnimatePresence>
                 {
                     sortedProjects.map(unProjet => (
@@ -57,6 +57,6 @@ export default function ListeProjets(props){
                     ))
                 }
                 </AnimatePresence>    
-        </section>  
+        </motion.section>  
     );
 }
