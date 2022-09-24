@@ -1,9 +1,20 @@
 import './sass/components/ListeProjets.scss';
 import Projet from './Projet';
 import lesProjets from './data/lesProjets.json';
+import {AnimatePresence} from 'framer-motion';
+import { useEffect, useState } from 'react';
 
 
 export default function ListeProjets(props){
+
+    const [sortedProjects, setSortedProjects] = useState([]);
+
+    useEffect(() => {
+        const filteredProjects = lesProjets.sort(
+            ({vieillesse:a}, {vieillesse:b}) => sortByAge(a, b)
+        ).filter(filterByType);
+        setSortedProjects(filteredProjects);
+    }, [props.orderByAge, props.orderByType]);
 
     const sortByAge = (a, b) => {
         switch (props.orderByAge){
@@ -22,7 +33,6 @@ export default function ListeProjets(props){
         }
         
         const contains = props.orderByType.some(element => {
-            console.log(project.type.includes(element));
             return project.type.includes(element);
         });
 
@@ -31,15 +41,22 @@ export default function ListeProjets(props){
 
     return (
         <section className="ListeProjets">
-            {lesProjets.sort(({vieillesse:a}, {vieillesse:b}) => sortByAge(a, b)).filter(filterByType).map(unProjet => <Projet pid={unProjet.id} 
-                                                nom={unProjet.nom} 
-                                                desc={unProjet.desc}            
-                                                github_link={unProjet.github_link} 
-                                                project_link={unProjet.project_link} 
-                                                date={unProjet.date}
-                                                technologies={unProjet.technologies}
-                                        />)
-            }
-        </section>
+                <AnimatePresence>
+                {
+                    sortedProjects.map(unProjet => (
+                        <Projet 
+                            key={unProjet.id}
+                            pid={unProjet.id} 
+                            nom={unProjet.nom} 
+                            desc={unProjet.desc}            
+                            github_link={unProjet.github_link} 
+                            project_link={unProjet.project_link} 
+                            date={unProjet.date}
+                            technologies={unProjet.technologies}
+                        />
+                    ))
+                }
+                </AnimatePresence>    
+        </section>  
     );
 }

@@ -1,6 +1,7 @@
 .ListeProjets {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap: 3rem;
 }

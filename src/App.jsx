@@ -7,6 +7,7 @@ import Footer from './Footer';
 import Presentation from './Presentation';
 
 function App() {
+
   return (
     <div className="App">
       <Entete/>

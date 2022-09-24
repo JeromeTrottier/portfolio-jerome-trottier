@@ -30,7 +30,7 @@ export default function FiltreProjets(props){
 
     return (
         <div className="FiltreProjets">
-            <button onClick={changeAgeOrder} className='orderByAge'>Vieillesse <ArrowBackIcon className={props.orderByAge}/></button>
+            <button onClick={changeAgeOrder} className='orderByAge'>Date <ArrowBackIcon className={props.orderByAge}/></button>
             <Multiselect options={projectTypes.options} 
                          displayValue={"name"} 
                          showCheckbox={true} 

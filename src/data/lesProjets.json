@@ -1,6 +1,6 @@
 [
     {
-        "id": "projet001",
+        "id": 1,
         "nom": "Générateur de gammes et accords",
         "desc": "Une application web qui permet de générer aléatoirement des gammes et accords de piano et de les afficher.",
         "github_link": "https://github.com/JeromeTrottier/Application-Musicale",
@@ -25,7 +25,7 @@
         ]  
     },
     {
-        "id": "projet002",
+        "id": 2,
         "nom": "Le Chevalier Perdu",
         "desc": "Un jeu vidéo 2D platformer fait à l'aide de JavaScript et de Canvas HTML",
         "github_link": "https://github.com/JeromeTrottier/Jeu_JavaScript_LeChevalierPerdu",
@@ -52,7 +52,7 @@
          
     },
     {
-        "id": "projet003",
+        "id": 3,
         "nom": "Grille redimensionnable",
         "desc": "Grille qui peut être redimensionné dynamiquement en manipulant en des éléments DOM.",
         "github_link": "https://github.com/JeromeTrottier/GrilleDynamique",
@@ -78,7 +78,7 @@
          
     },
     {
-        "id": "projet004",
+        "id": 4,
         "nom": "Projet refonte : Vélo Intemporel",
         "desc": "Une complète de refonte d'un site web intégré en HTML5, CSS, JavaScript et PHP",
         "github_link": "https://github.com/JeromeTrottier/TransormationSiteWeb_Design",
@@ -112,7 +112,7 @@
         ]  
     },
     {
-        "id": "projet005",
+        "id": 5,
         "nom": "Tetrominos 3D",
         "desc": "Un jeu Tetris, mais en 3D!",
         "github_link": "https://github.com/JeromeTrottier/Tetrominos3D",
@@ -138,7 +138,7 @@
         ]  
     },
     {
-        "id": "projet006",
+        "id": 6,
         "nom": "Gravity Ball",
         "desc": "Un petit jeu platformer où on joue une balle contrôlée que par la gravité!",
         "github_link": "https://github.com/JeromeTrottier/GravityBall",
@@ -168,7 +168,7 @@
          
     },
     {
-        "id": "projet007",
+        "id": 7,
         "nom": "La flûte de Neia",
         "desc": "Un objet modélisé en 3D utilisant aussi de la simulation de tissu",
         "github_link": "",
@@ -186,7 +186,7 @@
          
     },
     {
-        "id": "projet008",
+        "id": 8,
         "nom": "Gestionnaire de tâches",
         "desc": "Une petite application web qui permet d'ajouter, classer et de supprimer des tâches de plusieurs utilisateurs.",
         "github_link": "https://github.com/JeromeTrottier/tp2-memo",
@@ -205,6 +205,5 @@
         "type" : [
             "Web"
         ]   
-         
     }
 ]
