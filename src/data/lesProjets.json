@@ -205,5 +205,39 @@
         "type" : [
             "Web"
         ]   
+    },
+    {
+        "id": 9,
+        "nom": "Site web du programme TIM",
+        "desc": "Site web réalisé en équipe de 4. Mon rôle: Gérer logique de fetch sur le Rest API, logique de gestion de contenu sur Wordpress et CSS.",
+        "github_link": "https://github.com/papatou15/a2022-projet-web-tim",
+        "project_link": "https://timm184.sg-host.com/",
+        "date" : "Décembre 2022",
+        "vieillesse": 202212,
+        "technologies" : [{
+                "techNom": "Wordpress",
+                "techLink": "https://wordpress.com/fr/"
+            },
+            {
+                "techNom": "React",
+                "techLink": "https://fr.reactjs.org"
+            },
+            {
+                "techNom": "Rest API",
+                "techLink": "https://developer.wordpress.org/rest-api/"
+            },
+            {
+                "techNom": "CSS",
+                "techLink": "https://www.w3.org/Style/CSS/Overview.fr.html"
+            },
+            {
+                "techNom": "PHP",
+                "techLink": "https://www.php.net/"
+            }
+        ],
+        "type" : [
+            "Web",
+            "Design"
+        ]   
     }
 ]
